@@ -8,11 +8,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		.gitmodules = .gitmodules
 		AllRules.ruleset = AllRules.ruleset
 		Directory.Build.props = Directory.Build.props
 		Directory.Meta.props = Directory.Meta.props
 		LICENSE = LICENSE
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet-common", "dotnet-common", "{E608BD6E-AF35-41CC-9CA5-A6534420A22D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2B2B7988-10CC-47CE-AAA4-4CEF9285C918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THNETII.CommandLine.Extensions", "dotnet-common\src\THNETII.CommandLine.Extensions\THNETII.CommandLine.Extensions.csproj", "{4D57491F-0CC7-4464-8034-722F25F5C955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THNETII.Common", "dotnet-common\src\THNETII.Common\THNETII.Common.csproj", "{BAD0670C-7D49-4497-A7DD-CDAC625020DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,5 +37,36 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1AE6E9E6-6117-46E5-A663-3EBBE47F9E13}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D57491F-0CC7-4464-8034-722F25F5C955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D57491F-0CC7-4464-8034-722F25F5C955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D57491F-0CC7-4464-8034-722F25F5C955}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4D57491F-0CC7-4464-8034-722F25F5C955}.Debug|x64.Build.0 = Debug|Any CPU
+		{4D57491F-0CC7-4464-8034-722F25F5C955}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4D57491F-0CC7-4464-8034-722F25F5C955}.Debug|x86.Build.0 = Debug|Any CPU
+		{4D57491F-0CC7-4464-8034-722F25F5C955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D57491F-0CC7-4464-8034-722F25F5C955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D57491F-0CC7-4464-8034-722F25F5C955}.Release|x64.ActiveCfg = Release|Any CPU
+		{4D57491F-0CC7-4464-8034-722F25F5C955}.Release|x64.Build.0 = Release|Any CPU
+		{4D57491F-0CC7-4464-8034-722F25F5C955}.Release|x86.ActiveCfg = Release|Any CPU
+		{4D57491F-0CC7-4464-8034-722F25F5C955}.Release|x86.Build.0 = Release|Any CPU
+		{BAD0670C-7D49-4497-A7DD-CDAC625020DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD0670C-7D49-4497-A7DD-CDAC625020DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD0670C-7D49-4497-A7DD-CDAC625020DE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BAD0670C-7D49-4497-A7DD-CDAC625020DE}.Debug|x64.Build.0 = Debug|Any CPU
+		{BAD0670C-7D49-4497-A7DD-CDAC625020DE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BAD0670C-7D49-4497-A7DD-CDAC625020DE}.Debug|x86.Build.0 = Debug|Any CPU
+		{BAD0670C-7D49-4497-A7DD-CDAC625020DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD0670C-7D49-4497-A7DD-CDAC625020DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD0670C-7D49-4497-A7DD-CDAC625020DE}.Release|x64.ActiveCfg = Release|Any CPU
+		{BAD0670C-7D49-4497-A7DD-CDAC625020DE}.Release|x64.Build.0 = Release|Any CPU
+		{BAD0670C-7D49-4497-A7DD-CDAC625020DE}.Release|x86.ActiveCfg = Release|Any CPU
+		{BAD0670C-7D49-4497-A7DD-CDAC625020DE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B2B7988-10CC-47CE-AAA4-4CEF9285C918} = {E608BD6E-AF35-41CC-9CA5-A6534420A22D}
+		{4D57491F-0CC7-4464-8034-722F25F5C955} = {2B2B7988-10CC-47CE-AAA4-4CEF9285C918}
+		{BAD0670C-7D49-4497-A7DD-CDAC625020DE} = {2B2B7988-10CC-47CE-AAA4-4CEF9285C918}
 	EndGlobalSection
 EndGlobal
